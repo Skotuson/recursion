@@ -10,7 +10,7 @@ void printBinary ( int * a, int len ) {
 }
 
 void binary ( int * a, int k, int pos ) {
-
+    
 }
 
 int main ( void ) {
