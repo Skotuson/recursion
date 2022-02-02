@@ -13,15 +13,16 @@ void printBinary ( int * a, int len ) {
 
 void binary ( int * a, int k, int pos, int p ) {
     
-    if ( pos == k ) {
+    a[pos] = p;
+
+    if ( pos == k - 1 ) {
         printBinary ( a, k );
         return;
     }
 
-    a[pos] = p;
+    binary ( a, k, pos + 1, 0 );
     if ( ! p )
-        binary ( a, k, pos + 1, p );
-    binary ( a, k, pos + 1, ! p );
+        binary ( a, k, pos + 1, 1 );
 
 }
 
