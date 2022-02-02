@@ -50,7 +50,7 @@ int main ( void ) {
 
     ull cnt;
 
-    int a[] = { 1, 1, 1, 1, 5 };
+    int a[] = { 1, 1, 3, 3, 3, 6, 6, 8, 8 };
     cnt = 0;
     //qsort ( a, sizeof ( a ) / sizeof ( a[0] ), sizeof ( a[0] ), cmp );
     permutations ( a, sizeof ( a ) / sizeof ( a[0] ), 0, &cnt );
