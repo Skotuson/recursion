@@ -1,0 +1,250 @@
+int arr0[] = { 1, 1, 1, 1, 1 };
+cnt = 0;
+permutations ( arr0, sizeof ( arr0 ) / sizeof ( arr0[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr1[] = { 1, 1, 3, 3, 3, 3, 7, 8, 8 };
+cnt = 0;
+permutations ( arr1, sizeof ( arr1 ) / sizeof ( arr1[0] ), 0, &cnt );
+assert ( cnt == 3780 );
+
+int arr2[] = { 1, 1, 1, 1, 1, 1, 1 };
+cnt = 0;
+permutations ( arr2, sizeof ( arr2 ) / sizeof ( arr2[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr3[] = { 1 };
+cnt = 0;
+permutations ( arr3, sizeof ( arr3 ) / sizeof ( arr3[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr4[] = { 1, 1, 1, 1 };
+cnt = 0;
+permutations ( arr4, sizeof ( arr4 ) / sizeof ( arr4[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr5[] = { 1, 1, 3, 3, 5, 5 };
+cnt = 0;
+permutations ( arr5, sizeof ( arr5 ) / sizeof ( arr5[0] ), 0, &cnt );
+assert ( cnt == 90 );
+
+int arr6[] = { 1, 1 };
+cnt = 0;
+permutations ( arr6, sizeof ( arr6 ) / sizeof ( arr6[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr7[] = { 1, 1 };
+cnt = 0;
+permutations ( arr7, sizeof ( arr7 ) / sizeof ( arr7[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr8[] = { 1, 2, 2, 2, 2, 6, 6, 8 };
+cnt = 0;
+permutations ( arr8, sizeof ( arr8 ) / sizeof ( arr8[0] ), 0, &cnt );
+assert ( cnt == 840 );
+
+int arr9[] = { 1, 1 };
+cnt = 0;
+permutations ( arr9, sizeof ( arr9 ) / sizeof ( arr9[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr10[] = { 1, 1, 1, 1, 1, 6, 6, 6, 9 };
+cnt = 0;
+permutations ( arr10, sizeof ( arr10 ) / sizeof ( arr10[0] ), 0, &cnt );
+assert ( cnt == 504 );
+
+int arr11[] = { 1 };
+cnt = 0;
+permutations ( arr11, sizeof ( arr11 ) / sizeof ( arr11[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr12[] = { 1, 1, 1, 1, 1 };
+cnt = 0;
+permutations ( arr12, sizeof ( arr12 ) / sizeof ( arr12[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr13[] = { 1, 2, 2, 4, 5 };
+cnt = 0;
+permutations ( arr13, sizeof ( arr13 ) / sizeof ( arr13[0] ), 0, &cnt );
+assert ( cnt == 60 );
+
+int arr14[] = { 1, 1, 1, 1, 1, 6, 6 };
+cnt = 0;
+permutations ( arr14, sizeof ( arr14 ) / sizeof ( arr14[0] ), 0, &cnt );
+assert ( cnt == 21 );
+
+int arr15[] = { 1 };
+cnt = 0;
+permutations ( arr15, sizeof ( arr15 ) / sizeof ( arr15[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr16[] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+cnt = 0;
+permutations ( arr16, sizeof ( arr16 ) / sizeof ( arr16[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr17[] = { 1, 1, 1, 1, 5, 6, 6, 6, 9, 9, 9 };
+cnt = 0;
+permutations ( arr17, sizeof ( arr17 ) / sizeof ( arr17[0] ), 0, &cnt );
+assert ( cnt == 46200 );
+
+int arr18[] = { 1, 1, 1, 1, 1, 6, 6, 6, 9, 9 };
+cnt = 0;
+permutations ( arr18, sizeof ( arr18 ) / sizeof ( arr18[0] ), 0, &cnt );
+assert ( cnt == 2520 );
+
+int arr19[] = { 1, 2 };
+cnt = 0;
+permutations ( arr19, sizeof ( arr19 ) / sizeof ( arr19[0] ), 0, &cnt );
+assert ( cnt == 2 );
+
+int arr20[] = { 1, 1, 1, 1, 1, 1, 1, 8, 9 };
+cnt = 0;
+permutations ( arr20, sizeof ( arr20 ) / sizeof ( arr20[0] ), 0, &cnt );
+assert ( cnt == 72 );
+
+int arr21[] = { 1, 1, 1, 4, 4, 6, 6, 6, 9, 10, 10 };
+cnt = 0;
+permutations ( arr21, sizeof ( arr21 ) / sizeof ( arr21[0] ), 0, &cnt );
+assert ( cnt == 277200 );
+
+int arr22[] = { 1, 2, 2, 4, 5, 6 };
+cnt = 0;
+permutations ( arr22, sizeof ( arr22 ) / sizeof ( arr22[0] ), 0, &cnt );
+assert ( cnt == 360 );
+
+int arr23[] = { 1, 1, 1, 1, 5, 5, 5, 8, 8, 10 };
+cnt = 0;
+permutations ( arr23, sizeof ( arr23 ) / sizeof ( arr23[0] ), 0, &cnt );
+assert ( cnt == 12600 );
+
+int arr24[] = { 1, 1, 1, 4 };
+cnt = 0;
+permutations ( arr24, sizeof ( arr24 ) / sizeof ( arr24[0] ), 0, &cnt );
+assert ( cnt == 4 );
+
+int arr25[] = { 1, 2 };
+cnt = 0;
+permutations ( arr25, sizeof ( arr25 ) / sizeof ( arr25[0] ), 0, &cnt );
+assert ( cnt == 2 );
+
+int arr26[] = { 1, 1, 1, 1, 1, 1, 1, 1 };
+cnt = 0;
+permutations ( arr26, sizeof ( arr26 ) / sizeof ( arr26[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr27[] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 10, 10 };
+cnt = 0;
+permutations ( arr27, sizeof ( arr27 ) / sizeof ( arr27[0] ), 0, &cnt );
+assert ( cnt == 55 );
+
+int arr28[] = { 1, 1, 1, 1, 1, 1, 7, 7, 9 };
+cnt = 0;
+permutations ( arr28, sizeof ( arr28 ) / sizeof ( arr28[0] ), 0, &cnt );
+assert ( cnt == 252 );
+
+int arr29[] = { 1, 2, 2, 2, 2, 6, 6, 8, 8, 10 };
+cnt = 0;
+permutations ( arr29, sizeof ( arr29 ) / sizeof ( arr29[0] ), 0, &cnt );
+assert ( cnt == 37800 );
+
+int arr30[] = { 1, 1, 1, 1, 1, 1, 1, 1, 9, 10 };
+cnt = 0;
+permutations ( arr30, sizeof ( arr30 ) / sizeof ( arr30[0] ), 0, &cnt );
+assert ( cnt == 90 );
+
+int arr31[] = { 1, 1, 3, 3, 3, 3, 3, 8, 8, 8 };
+cnt = 0;
+permutations ( arr31, sizeof ( arr31 ) / sizeof ( arr31[0] ), 0, &cnt );
+assert ( cnt == 2520 );
+
+int arr32[] = { 1, 1, 1, 1, 5, 6 };
+cnt = 0;
+permutations ( arr32, sizeof ( arr32 ) / sizeof ( arr32[0] ), 0, &cnt );
+assert ( cnt == 30 );
+
+int arr33[] = { 1, 1, 3, 4, 4, 4, 4, 4, 9 };
+cnt = 0;
+permutations ( arr33, sizeof ( arr33 ) / sizeof ( arr33[0] ), 0, &cnt );
+assert ( cnt == 1512 );
+
+int arr34[] = { 1, 2, 2, 4 };
+cnt = 0;
+permutations ( arr34, sizeof ( arr34 ) / sizeof ( arr34[0] ), 0, &cnt );
+assert ( cnt == 12 );
+
+int arr35[] = { 1, 2, 3, 3, 5, 6, 6, 8, 9 };
+cnt = 0;
+permutations ( arr35, sizeof ( arr35 ) / sizeof ( arr35[0] ), 0, &cnt );
+assert ( cnt == 90720 );
+
+int arr36[] = { 1, 1, 1, 1, 1, 6 };
+cnt = 0;
+permutations ( arr36, sizeof ( arr36 ) / sizeof ( arr36[0] ), 0, &cnt );
+assert ( cnt == 6 );
+
+int arr37[] = { 1, 1, 1, 4, 4, 4, 4, 4, 9 };
+cnt = 0;
+permutations ( arr37, sizeof ( arr37 ) / sizeof ( arr37[0] ), 0, &cnt );
+assert ( cnt == 504 );
+
+int arr38[] = { 1, 2, 2, 2 };
+cnt = 0;
+permutations ( arr38, sizeof ( arr38 ) / sizeof ( arr38[0] ), 0, &cnt );
+assert ( cnt == 4 );
+
+int arr39[] = { 1, 1, 1, 4, 5, 6, 6 };
+cnt = 0;
+permutations ( arr39, sizeof ( arr39 ) / sizeof ( arr39[0] ), 0, &cnt );
+assert ( cnt == 420 );
+
+int arr40[] = { 1, 2, 2, 4 };
+cnt = 0;
+permutations ( arr40, sizeof ( arr40 ) / sizeof ( arr40[0] ), 0, &cnt );
+assert ( cnt == 12 );
+
+int arr41[] = { 1, 2 };
+cnt = 0;
+permutations ( arr41, sizeof ( arr41 ) / sizeof ( arr41[0] ), 0, &cnt );
+assert ( cnt == 2 );
+
+int arr42[] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+cnt = 0;
+permutations ( arr42, sizeof ( arr42 ) / sizeof ( arr42[0] ), 0, &cnt );
+assert ( cnt == 1 );
+
+int arr43[] = { 1, 1, 1, 1, 5 };
+cnt = 0;
+permutations ( arr43, sizeof ( arr43 ) / sizeof ( arr43[0] ), 0, &cnt );
+assert ( cnt == 5 );
+
+int arr44[] = { 1, 2 };
+cnt = 0;
+permutations ( arr44, sizeof ( arr44 ) / sizeof ( arr44[0] ), 0, &cnt );
+assert ( cnt == 2 );
+
+int arr45[] = { 1, 2, 3 };
+cnt = 0;
+permutations ( arr45, sizeof ( arr45 ) / sizeof ( arr45[0] ), 0, &cnt );
+assert ( cnt == 6 );
+
+int arr46[] = { 1, 1, 1, 1, 5 };
+cnt = 0;
+permutations ( arr46, sizeof ( arr46 ) / sizeof ( arr46[0] ), 0, &cnt );
+assert ( cnt == 5 );
+
+int arr47[] = { 1, 1, 1, 1, 1, 6, 6, 6, 9, 9, 9 };
+cnt = 0;
+permutations ( arr47, sizeof ( arr47 ) / sizeof ( arr47[0] ), 0, &cnt );
+assert ( cnt == 9240 );
+
+int arr48[] = { 1, 1, 3, 3, 3, 3, 3, 3, 3, 10, 11 };
+cnt = 0;
+permutations ( arr48, sizeof ( arr48 ) / sizeof ( arr48[0] ), 0, &cnt );
+assert ( cnt == 3960 );
+
+int arr49[] = { 1, 1, 1, 1, 1, 6, 7 };
+cnt = 0;
+permutations ( arr49, sizeof ( arr49 ) / sizeof ( arr49[0] ), 0, &cnt );
+assert ( cnt == 42 );
+
