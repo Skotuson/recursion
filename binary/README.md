@@ -1,6 +1,6 @@
 # Binary Strings
 
-Given an integer **K**, print all binary strings of size **K**.  
+Given an integer **K**, print all binary strings of size **K** without consecutive **1's**.  
 
 ### Example I/O  
 <pre>
